@@ -1,0 +1,41 @@
+.svg__color {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  stroke: $color-lightgrey-text;
+}
+
+.colorPicker {
+  position: absolute;
+  width: 220px;
+  height: 200px;
+  top: 25px;
+  z-index: 10;
+
+  &--top {
+    top: -335px;
+    left: -77px;
+  }
+
+  &--bottom {
+    position: absolute;
+    bottom: 5px;
+  }
+
+  &--left {
+    right: 0px;
+  }
+
+  &--right {
+    left: 0px;
+  }
+
+  & > .closeButton {
+    width: inherit;
+    font-size: 12px;
+    padding: 2px;
+    border-radius: 0;
+  }
+}

@@ -1,0 +1,3 @@
+export enum ActionEnum {
+  SYNC_ORGANIZATIONAL_USERS = 'SYNC_ORGANIZATIONAL_USERS',
+}

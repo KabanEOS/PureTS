@@ -1,0 +1,12 @@
+$content-width: 90%;
+$top-app-bar-height: 80px;
+$nav-link-margin-left: 80px;
+$footer-height: 74px;
+$dialog-width: 730px;
+$breakpoints: (
+  'small': 576px,
+  'medium': 768px,
+  'mlarge': 1000px,
+  'large': 1280px,
+  'x-large': 1680px,
+) !default;

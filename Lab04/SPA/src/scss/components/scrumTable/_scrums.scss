@@ -1,0 +1,47 @@
+.table-container {
+  margin-top: 2rem;
+}
+
+.scrum-table {
+
+  width: 90vw;
+  margin: 0 auto;
+  &__header > th {
+    font-weight: bold;
+    height: 2rem;
+  }
+  &__header > th:first-child {
+    width: 100px;
+  }
+  &__header > th:nth-child(2) {
+    width: 200px;
+  }
+  &__submit {
+    margin: 30px;
+    text-align: right;
+    & > button {
+      margin: 0 8px;
+    }
+  }
+  &__captionBox{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+  }
+}
+
+.scrums__header {
+  margin-top: 1rem;
+  text-align: center;
+  margin-top: $top-app-bar-height;
+  & > div {
+    max-width: 10%;
+  } 
+}
+
+.scrumAddForm {
+  &__buttonBox{
+    display: flex;
+    justify-content: flex-end;
+  }
+}

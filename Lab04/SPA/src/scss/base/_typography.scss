@@ -1,0 +1,320 @@
+$font-family-light: 'TitilliumWeb-Light';
+$font-family-regular: 'FiraSans-Regular';
+$font-family-semibold: 'FiraSans-SemiBold';
+$font-family-bold: 'FiraSans-Bold';
+
+$font-family-sans: 'OpenSans-Regular';
+
+$font-size-miniature: 10px;
+$font-size-very-little: 12px;
+$font-size-little: 14px;
+$font-size-small: 16px;
+$font-size-standard: 18px;
+$font-size-medium: 22px;
+$font-size-medium-big: 25px;
+$font-size-sub-title: 28px;
+$font-size-title: 40px;
+$font-size-big: 50px;
+
+$font-size-rect-little: 12px;
+$font-size-rect-small: 10px;
+$font-size-rect-medium: 16px;
+$font-size-rect-large: 24px;
+
+$letter-spacing-small: 0.22px;
+$letter-spacing-medium: 0.0892857143em;
+$line-height-medium: 2.25rem;
+
+$margin-small: 0.5rem;
+$margin-standard: 0.75rem;
+$margin-big: 2rem;
+$margin-huge: 4rem;
+
+$block-shadow-standard: 0px 1px 16px -4px rgba(0, 0, 0, 0.25);
+
+:export {
+  fontfamilyRegular: $font-family-regular;
+  fontfamilySemibold: $font-family-semibold;
+  fontSizeSmall: $font-size-rect-small;
+  fontSizeMedium: $font-size-rect-medium;
+  fontSizeLarge: $font-size-rect-large;
+  familyBold: $font-family-bold;
+  sizeSmall: $font-size-small;
+  sizeLittle: $font-size-little;
+  sizeVeryLittle: $font-size-very-little;
+  letterSpacingSmall: $letter-spacing-small;
+  letterSpacing: $letter-spacing-medium;
+  lineHeight: $line-height-medium;
+}
+
+/* TitilliumWeb-Light */
+/* latin-ext */
+@font-face {
+  font-family: 'TitilliumWeb-Light';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Titillium Web Light'), local('TitilliumWeb-Light'), url(https://fonts.gstatic.com/s/titilliumweb/v8/NaPDcZTIAOhVxoMyOr9n_E7ffGjEGIVzY4SY.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'TitilliumWeb-Light';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Titillium Web Light'), local('TitilliumWeb-Light'), url(https://fonts.gstatic.com/s/titilliumweb/v8/NaPDcZTIAOhVxoMyOr9n_E7ffGjEGItzYw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* TitilliumWeb-Regular */
+/* latin-ext */
+@font-face {
+  font-family: 'TitilliumWeb-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Titillium Web Regular'), local('TitilliumWeb-Regular'), url(https://fonts.gstatic.com/s/titilliumweb/v8/NaPecZTIAOhVxoMyOr9n_E7fdM3mDbRS.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'TitilliumWeb-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Titillium Web Regular'), local('TitilliumWeb-Regular'), url(https://fonts.gstatic.com/s/titilliumweb/v8/NaPecZTIAOhVxoMyOr9n_E7fdMPmDQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* TitilliumWeb-SemiBold */
+/* latin-ext */
+@font-face {
+  font-family: 'TitilliumWeb-SemiBold';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Titillium Web SemiBold'), local('TitilliumWeb-SemiBold'), url(https://fonts.gstatic.com/s/titilliumweb/v8/NaPDcZTIAOhVxoMyOr9n_E7ffBzCGIVzY4SY.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'TitilliumWeb-SemiBold';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Titillium Web SemiBold'), local('TitilliumWeb-SemiBold'), url(https://fonts.gstatic.com/s/titilliumweb/v8/NaPDcZTIAOhVxoMyOr9n_E7ffBzCGItzYw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* TitilliumWeb-Bold */
+/* latin-ext */
+@font-face {
+  font-family: 'TitilliumWeb-Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Titillium Web Bold'), local('TitilliumWeb-Bold'), url(https://fonts.gstatic.com/s/titilliumweb/v8/NaPDcZTIAOhVxoMyOr9n_E7ffHjDGIVzY4SY.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'TitilliumWeb-Bold';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Titillium Web Bold'), local('TitilliumWeb-Bold'), url(https://fonts.gstatic.com/s/titilliumweb/v8/NaPDcZTIAOhVxoMyOr9n_E7ffHjDGItzYw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* OpenSans-Regular */
+/* latin-ext */
+@font-face {
+  font-family: 'OpenSans-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFW50bbck.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'OpenSans-Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0b.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* FiraSans-Regular */
+/* latin-ext */
+@font-face {
+  font-family: 'FiraSans-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Fira Sans Regular'), local('FiraSans-Regular'), url(https://fonts.gstatic.com/s/firasans/v10/va9E4kDNxMZdWfMOD5VvmYjLeTY.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'FiraSans-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Fira Sans Regular'), local('FiraSans-Regular'), url(https://fonts.gstatic.com/s/firasans/v10/va9E4kDNxMZdWfMOD5Vvl4jL.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* FiraSans-SemiBold */
+/* latin-ext */
+@font-face {
+  font-family: 'FiraSans-SemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Fira Sans SemiBold'), local('FiraSans-SemiBold'), url(https://fonts.gstatic.com/s/firasans/v10/va9B4kDNxMZdWfMOD5VnSKzeSBf6TF0.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'FiraSans-SemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Fira Sans SemiBold'), local('FiraSans-SemiBold'), url(https://fonts.gstatic.com/s/firasans/v10/va9B4kDNxMZdWfMOD5VnSKzeRhf6.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* FiraSans-SemiBold */
+/* latin-ext */
+@font-face {
+  font-family: 'FiraSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Fira Sans Bold'), local('FiraSans-Bold'), url(https://fonts.gstatic.com/s/firasans/v10/va9B4kDNxMZdWfMOD5VnLK3eSBf6TF0.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'FiraSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Fira Sans Bold'), local('FiraSans-Bold'), url(https://fonts.gstatic.com/s/firasans/v10/va9B4kDNxMZdWfMOD5VnLK3eRhf6.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* MartelSans-Regular */
+/* latin-ext */
+@font-face {
+  font-family: 'MartelSans-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Martel Sans Regular'), local('MartelSans-Regular'), url(https://fonts.gstatic.com/s/martelsans/v6/h0GsssGi7VdzDgKjM-4d8hjWx-6_Pg.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'MartelSans-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Martel Sans Regular'), local('MartelSans-Regular'), url(https://fonts.gstatic.com/s/martelsans/v6/h0GsssGi7VdzDgKjM-4d8hjYx-4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* MartelSans-SemiBold */
+/* latin-ext */
+@font-face {
+  font-family: 'MartelSans-SemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Martel Sans SemiBold'), local('MartelSans-SemiBold'), url(https://fonts.gstatic.com/s/martelsans/v6/h0GxssGi7VdzDgKjM-4d8hAH4_uOH0gXqA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'MartelSans-SemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Martel Sans SemiBold'), local('MartelSans-SemiBold'), url(https://fonts.gstatic.com/s/martelsans/v6/h0GxssGi7VdzDgKjM-4d8hAH4_uAH0g.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* MartelSans-Bold */
+/* latin-ext */
+@font-face {
+  font-family: 'MartelSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Martel Sans Bold'), local('MartelSans-Bold'), url(https://fonts.gstatic.com/s/martelsans/v6/h0GxssGi7VdzDgKjM-4d8hBj4vuOH0gXqA.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'MartelSans-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Martel Sans Bold'), local('MartelSans-Bold'), url(https://fonts.gstatic.com/s/martelsans/v6/h0GxssGi7VdzDgKjM-4d8hBj4vuAH0g.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Mukta-Regular */
+/* latin-ext */
+@font-face {
+  font-family: 'Mukta-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Mukta Regular'), local('Mukta-Regular'), url(https://fonts.gstatic.com/s/mukta/v7/iJWKBXyXfDDVXbnPrXyi0A.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Mukta-Regular';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Mukta Regular'), local('Mukta-Regular'), url(https://fonts.gstatic.com/s/mukta/v7/iJWKBXyXfDDVXbnBrXw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Mukta-SemiBold */
+/* latin-ext */
+@font-face {
+  font-family: 'Mukta-SemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Mukta SemiBold'), local('Mukta-SemiBold'), url(https://fonts.gstatic.com/s/mukta/v7/iJWHBXyXfDDVXbEeiWmT8WDm7Q.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Mukta-SemiBold';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: local('Mukta SemiBold'), local('Mukta-SemiBold'), url(https://fonts.gstatic.com/s/mukta/v7/iJWHBXyXfDDVXbEeiWmd8WA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Mukta-Bold */
+/* latin-ext */
+@font-face {
+  font-family: 'Mukta-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Mukta Bold'), local('Mukta-Bold'), url(https://fonts.gstatic.com/s/mukta/v7/iJWHBXyXfDDVXbF6iGmT8WDm7Q.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Mukta-Bold';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Mukta Bold'), local('Mukta-Bold'), url(https://fonts.gstatic.com/s/mukta/v7/iJWHBXyXfDDVXbF6iGmd8WA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}

@@ -1,0 +1,17 @@
+{
+  "integrationFolder": "cypress/integration",
+  "ignoreTestFiles": "**/tofix/*.spec.js",
+  "baseUrl": "http://localhost:3000",
+  "reporter": "junit",
+  "reporterOptions": {
+    "mochaFile": "cypress/results/test-results.xml",
+    "toConsole": true,
+    "attachments": true
+  },
+  "video": false,
+  "pluginsFile": "cypress/plugins/index.js",
+  "supportFile": "cypress/support/index.js",
+  "viewportWidth": 1920,
+  "viewportHeight": 1080,
+  "chromeWebSecurity": false
+}

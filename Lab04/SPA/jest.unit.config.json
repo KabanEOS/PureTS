@@ -1,0 +1,11 @@
+{
+  "moduleFileExtensions": ["js", "json", "ts"],
+  "rootDir": ".",
+  "testEnvironment": "node",
+  "testRegex": ".tests.ts$",
+  "testPathIgnorePatterns": ["scss"],
+  "moduleDirectories": [
+    "node_modules",
+    "src"
+  ]
+}

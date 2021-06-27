@@ -1,0 +1,29 @@
+{
+  "presets": [
+    "@babel/preset-env",
+    "@babel/preset-react",
+    "@babel/preset-typescript"
+  ],
+  "plugins": [
+    "syntax-dynamic-import",
+    ["@babel/plugin-proposal-decorators", { "legacy": true }],
+    ["@babel/plugin-proposal-class-properties", { "loose": true }],
+    "@babel/plugin-proposal-optional-chaining",
+    "@babel/proposal-object-rest-spread", 
+    "transform-async-to-generator", 
+    ["@babel/plugin-transform-runtime", {"regenerator": true}],
+    [
+      "babel-plugin-transform-imports",
+      {
+        "@material-ui/core": {
+          "transform": "@material-ui/core/esm/${member}",
+          "preventFullImport": true
+        },
+        "@material-ui/icons": {
+          "transform": "@material-ui/icons/esm/${member}",
+          "preventFullImport": true
+        }
+      }
+    ]
+  ]
+}

@@ -1,0 +1,64 @@
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  &__overlay {
+    opacity: 0;
+    top: 0; 
+    left: 0;
+    position: absolute;
+  }
+  &__img {
+    display: block;
+    width: 25px;
+    margin: auto 5px auto 0;
+  }
+  &__flag {
+    position: relative;
+    font-size: 25px;
+    &--current {
+      .nav-menu__img {
+        opacity: 0.3;
+      }
+      .nav-menu__overlay {
+        opacity: 1;
+      }
+    }
+  }
+  &__lang--current {
+    font-weight: bold;
+  }
+}
+
+.nav-bar {
+  font-size: $font-size-standard;
+  flex-grow: 1;
+  height: $top-app-bar-height;
+  z-index: 95 !important;
+  &__toolbar {
+    background-color: $color-brand-dark;
+    padding: 10px;
+    height: $top-app-bar-height;
+    justify-content: space-between;
+  }
+  &__toolbar p {
+    display: none;
+    font-family: $font-family-semibold;
+    color: $color-white-text;
+    @include wider-than(medium) {
+      display: block;
+    }
+  }
+  &__logo {
+    height: 50px;
+    & > img {
+      height: 50px;      
+    }
+  }
+  &__title {
+    margin-left: 10px;
+  }
+  &__user {
+    display: flex;
+    flex-direction: row;
+  }
+}

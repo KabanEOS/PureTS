@@ -1,0 +1,23 @@
+@charset 'UTF-8';
+
+@import 
+  'base/colors',
+  'base/globals',
+  'base/typography',
+  'base/mixins',
+  'base/animations';
+
+@import
+  'shared/themes',
+  'shared/container',
+  'shared/notifications';
+
+@import 
+  'layout/swarmcheck',
+  'layout/footer',
+  'layout/navBar',
+  'layout/colorPicker';
+
+@import
+  'components/homePage/homePage',
+  'components/scrumTable/scrums';

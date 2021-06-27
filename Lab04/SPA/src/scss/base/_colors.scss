@@ -1,0 +1,106 @@
+//text colors
+$color-white-text: #fff;
+$color-black-text: #000;
+$color-lightgrey-text: #aaa;
+$color-grey-text: #808080;
+
+//brandbook colors
+$brand-grey: #919191;
+$brand-black: #363537;
+$brand-lightgrey: #f4eeeb;
+$brand-green: #39ffcb;
+$brand-darkgreen: #35d8a5;
+$brand-red: #f26666;
+$brand-black-light-1: lighten($brand-black, 0.5);
+$brand-grey-dark-1: #616161;
+$brand-grey-dark-2: #515151;
+
+//old brand colors
+$color-brand-dark: #1B1C3B;
+$color-brand-green: #00FFC6;
+$color-brand-dark-green: #3DE2AE;
+$color-brand-secondary: #083D9A;
+$color-brand-info: #025DFF;
+
+$main-background-color: #FFF;
+$lightgrey-background-color: #fbfbfb;
+$grey-background-color: lightgrey;
+$pending-background-color: #e3e3e3;
+$son-background-color: #222266;
+$grey-background-alpha: rgba(211,211,211,0.5);
+
+$color-argument-agree: $brand-green;
+$color-argument-disagree: $brand-red;
+$color-argument-paraphrase: #7795f6;
+$color-argument-steelman: $color-argument-paraphrase;
+$color-argument-canbefalsifiedwith: #B681EB;
+$color-argument-falsify: #777;
+$son-argument-agree: #00FFAA;
+$son-argument-disagree: #DD0088;
+$son-argument-steelman: #77AAFF;
+
+$color-a-href: #083D9A;
+$color-a-href-on-hover: #206ccf;
+$color-checkbox-green: #05AB3C;
+$color-gold-focus: gold;
+$color-a-href-theme-1: #95B2FF;
+$color-a-href-theme-1: #1B1C3B;
+
+$color-sandbox: #ffa366;
+$color-background-son: transparent linear-gradient(165deg, #170C58 0%, #BE00C4 200%);
+$yellow-button: linear-gradient(180deg, #FFCC44, #FEAB30);
+$yellow-shadow: #D89F0445;
+$blue-button: #1B1C3B;
+$blue-shadow: lighten(#1B1C3B, 10%);
+
+$color-border: #bbb;
+$color-border-grey: #bbb;
+$color-border-grey-light: #ccc;
+$son-border-color: #001133;
+$color-maybe: #ffb733;
+$color-mui-error: #f44336;
+
+$color-argument-agree-light: #82ffe3;
+$color-argument-disagree-light: #ff9797;
+$color-argument-agree-alpha: rgba(0, 255, 198, 0.5);
+$color-argument-disagree-alpha: rgba(255, 83, 83, 0.5);
+$color-argument-paraphrase-alpha: rgba(119, 149, 246, 0.502);
+$color-argument-steelman-alpha: $color-argument-paraphrase-alpha;
+$color-maybe-light: #ffc966;
+$color-edit-light: #eee;
+
+$color-regular-icon: #B9B5B3;
+
+:export {
+  brandDark: $brand-black;
+  brandGreyDark: $brand-grey-dark-1;
+  mjnBlue: $color-brand-secondary;
+  mjnDarkBlue: $color-brand-dark;
+  brandGreen: $brand-green;
+  whiteText: $color-white-text;
+  blackText: $color-black-text;
+  greyText: $color-grey-text;
+  lightGreyText: $grey-background-alpha;
+  argumentAgree: $color-argument-agree;
+  darkArgumentAgree: $color-brand-dark-green;
+  brandDarkGreen: $brand-darkgreen;
+  argumentDisagree: $color-argument-disagree;
+  argumentDisagreeLight: $color-argument-disagree-alpha;
+  editLight: $color-edit-light;
+  infoColor: $grey-background-color;
+  muiPrimary: $brand-black;
+  muiSecondary: $brand-grey;
+  argumentSteelman: $color-argument-steelman;
+  argumentSteelmanLight: $color-argument-steelman-alpha;
+  argumentCanBeFalsifiedWith: $color-argument-canbefalsifiedwith;
+  argumentFalsify: $color-argument-falsify;
+  graphBackground: $lightgrey-background-color;
+  argumentBorder: $color-border-grey-light;
+  mainBackgroundColor: $main-background-color;
+  voteMaybe: $color-maybe;
+  yellowButton: $yellow-button;
+  yellowShadow: $yellow-shadow;
+  blueButton: $blue-button;
+  blueShadow: $blue-shadow;
+  regularThemeIconColor: $color-regular-icon;
+}

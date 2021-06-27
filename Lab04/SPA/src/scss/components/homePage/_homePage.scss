@@ -1,0 +1,17 @@
+.first-login {
+  padding: 20px;
+  h2, h3 {
+    margin: 0;
+  }
+  h3 {
+    padding-top: 10px;
+    color: $color-argument-disagree-light;
+  }
+}
+
+.homepage {
+  margin: 120px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
